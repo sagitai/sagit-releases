@@ -1,8 +1,12 @@
-<p align="center">
-  <img src="mascot.png" width="140" />
-</p>
+<div align="center">
+<img src="mascot.png" width="140" />
+<h1>Sagit</h1>
+</div>
 
-<h1 align="center">Sagit</h1>
+
+
+
+
 
 <p align="center">
   <strong>Your AI company, on your laptop.</strong><br>
