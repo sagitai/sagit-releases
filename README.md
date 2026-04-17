@@ -1,11 +1,8 @@
 <p align="center">
-  <img src="mascot.png" width="120" />
+  <img src="mascot.png" width="140" />
 </p>
 
-<h1 align="center">
-  <img src="sagit-logo.png" height="32" style="vertical-align: middle;" />
-  Sagit
-</h1>
+<h1 align="center">Sagit</h1>
 
 <p align="center">
   <strong>Your AI company, on your laptop.</strong><br>
