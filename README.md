@@ -1,3 +1,5 @@
+<p align="center"><img src="mascot.png" width="120" /></p>
+
 # ♐ Sagit
 
 **Your AI company, on your laptop.**
@@ -38,7 +40,7 @@ Sagit needs an AI model provider to work. The default is **ClawAPI** (pay-per-us
 | ClawAPI (default) | [clawapi.org](https://clawapi.org) | Claude, GPT, Gemini via one key |
 | Anthropic | [console.anthropic.com](https://console.anthropic.com) | Claude Opus / Sonnet / Haiku |
 | OpenAI | [platform.openai.com](https://platform.openai.com) | GPT-5.4 / mini |
-| Google | [aistudio.google.dev](https://aistudio.google.dev) | Gemini 3.x |
+| Google | [aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey) | Gemini 3.x |
 | Ollama (local) | [ollama.com](https://ollama.com) | Any local model, free |
 
 ### 3. Start
