@@ -1,18 +1,21 @@
-<p align="center"><img src="mascot.png" width="120" /></p>
+<p align="center">
+  <img src="mascot.png" width="120" />
+</p>
 
-# ♐ Sagit
+<h1 align="center">
+  <img src="sagit-logo.png" height="32" style="vertical-align: middle;" />
+  Sagit
+</h1>
 
-**Your AI company, on your laptop.**
+<p align="center">
+  <strong>Your AI company, on your laptop.</strong><br>
+  A thin harness for AI companies. Skills as markdown. Memory on disk. Bring your own provider.
+</p>
 
-A thin harness for AI companies. Skills as markdown. Memory on disk. Bring your own provider.
-
----
-
-## Download
-
-**[⬇ Download Sagit for Mac (Apple Silicon)](https://github.com/sagitai/sagit-releases/releases/latest)**
-
-v1.0.0 · 151 MB · macOS 12+ · Apple Silicon
+<p align="center">
+  <a href="https://github.com/sagitai/sagit-releases/releases/latest"><strong>⬇ Download for Mac (Apple Silicon)</strong></a><br>
+  <sub>v1.0.0 · 151 MB · macOS 12+ · Apple Silicon</sub>
+</p>
 
 ---
 
@@ -40,7 +43,7 @@ Sagit needs an AI model provider to work. The default is **ClawAPI** (pay-per-us
 | ClawAPI (default) | [clawapi.org](https://clawapi.org) | Claude, GPT, Gemini via one key |
 | Anthropic | [console.anthropic.com](https://console.anthropic.com) | Claude Opus / Sonnet / Haiku |
 | OpenAI | [platform.openai.com](https://platform.openai.com) | GPT-5.4 / mini |
-| Google | [aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey) | Gemini 3.x |
+| Google | [aistudio.google.com](https://aistudio.google.com/app/apikey) | Gemini 3.x |
 | Ollama (local) | [ollama.com](https://ollama.com) | Any local model, free |
 
 ### 3. Start
@@ -60,13 +63,14 @@ Type your first mission. Sagit picks the right agent automatically.
 
 ---
 
-## Links
+<p align="center">
+  <a href="https://sagit.ai">sagit.ai</a> · <a href="https://x.com/sagit_ai">X @sagit_ai</a>
+</p>
 
-- Website: [sagit.ai](https://sagit.ai)
-- X: [@sagit_ai](https://x.com/sagit_ai)
+<p align="center">
+  <em>You aim. Sagit fires.</em> ♐
+</p>
 
----
-
-**You aim. Sagit fires.** ♐
-
-© 2026 Sagit
+<p align="center">
+  <sub>© 2026 Sagit</sub>
+</p>
