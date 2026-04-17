@@ -1,32 +1,70 @@
-# Sagit Downloads
+# ♐ Sagit
 
-Your AI company, on your laptop.
+**Your AI company, on your laptop.**
 
-## Latest Release
+A thin harness for AI companies. Skills as markdown. Memory on disk. Bring your own provider.
 
-**[Download Sagit for macOS (Apple Silicon) →](https://github.com/sagitai/sagit-releases/releases/latest)**
+---
 
-## Features
+## Download
 
-- 🏹 Auto/Fast/Expert multi-agent orchestration
-- 📁 39 fat skills — on-disk, editable markdown
-- 📚 Knowledge Wiki — import URLs and docs, LLM compiles structured knowledge
-- 📄 Document Delivery — PPT / Word export with one click
-- 🔒 Local-first — BYOK, your data never leaves your Mac
-- 🔌 Multi-provider — ClawAPI, Anthropic, OpenAI, Gemini, Ollama
+**[⬇ Download Sagit for Mac (Apple Silicon)](https://github.com/sagitai/sagit-releases/releases/latest)**
 
-## Install
+v1.0.0 · 151 MB · macOS 12+ · Apple Silicon
 
-1. Download the DMG
-2. Drag `Sagit.app` to `/Applications`
-3. First launch: right-click → Open → Open (bypass Gatekeeper)
-4. Add your API key in Settings → Done
+---
+
+## Quick Start
+
+### 1. Install
+
+- Download the DMG from [Releases](https://github.com/sagitai/sagit-releases/releases/latest)
+- Open the DMG, drag `Sagit.app` to `/Applications`
+- First launch: **right-click → Open → Open** (bypass Gatekeeper, one-time only)
+
+### 2. Get an API key
+
+Sagit needs an AI model provider to work. The default is **ClawAPI** (pay-per-use, no subscription):
+
+1. Go to [clawapi.org](https://clawapi.org)
+2. Register a free account
+3. Go to Dashboard → Copy your API key
+4. In Sagit: Settings → ClawAPI → Paste your key
+
+**Other supported providers** (add any or all in Settings):
+
+| Provider | Get key at | Models |
+|----------|-----------|--------|
+| ClawAPI (default) | [clawapi.org](https://clawapi.org) | Claude, GPT, Gemini via one key |
+| Anthropic | [console.anthropic.com](https://console.anthropic.com) | Claude Opus / Sonnet / Haiku |
+| OpenAI | [platform.openai.com](https://platform.openai.com) | GPT-5.4 / mini |
+| Google | [aistudio.google.dev](https://aistudio.google.dev) | Gemini 3.x |
+| Ollama (local) | [ollama.com](https://ollama.com) | Any local model, free |
+
+### 3. Start
+
+Type your first mission. Sagit picks the right agent automatically.
+
+---
+
+## What's inside
+
+- **39 specialist agents** — CEO, CTO, Researcher, Engineer... each is an editable `.skill.md` file
+- **Auto / Fast / Expert modes** — Auto picks the cheapest agent; upgrades to Expert when needed
+- **Knowledge Wiki** — import URLs and docs, agents reference them automatically
+- **Document Delivery** — export as PowerPoint or Word with one click
+- **4-layer memory** — company culture, decisions, learnings, tech stack
+- **Multi-provider routing** — switch models mid-conversation, automatic fallback
+
+---
 
 ## Links
 
-- Website: https://sagit.ai
+- Website: [sagit.ai](https://sagit.ai)
 - X: [@sagit_ai](https://x.com/sagit_ai)
 
 ---
 
-© 2026 Sagit · You aim. Sagit fires. ♐
+**You aim. Sagit fires.** ♐
+
+© 2026 Sagit
