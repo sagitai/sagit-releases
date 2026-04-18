@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="https://github.com/sagitai/sagit-releases/releases/latest"><strong>⬇ Download for Mac (Apple Silicon)</strong></a><br>
-  <sub>v1.0.0 · 151 MB · macOS 12+ · Apple Silicon</sub>
+  <sub>v1.1.0 · 151 MB · macOS 12+ · Apple Silicon</sub>
 </p>
 
 ---
