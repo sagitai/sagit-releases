@@ -19,7 +19,7 @@
 
 - **🌙 autoDream** — Daily memory consolidation. Sonnet 4.6 reviews your AI company's memory while you're idle: relative dates become absolute, duplicates merge, superseded entries get removed. 3-layer safety (backup + diary + restore).
 - **🎯 Skill Self-Evolution** — Roles get smarter with use. Sagit scores how well each agent performed (1-5), and when a role consistently scores poorly, generates an improvement suggestion you can review. Human-in-the-loop accept/reject/restore.
-- **📄 Document import** — Drop PDF, Word, or PowerPoint into the Knowledge Wiki. Sagit extracts the text via pure-JS converters (no Python install) and compiles a structured wiki entry.
+- **📥 Document import** — Drop PDF, Word, or PowerPoint into the Knowledge Wiki. Sagit extracts the text via pure-JS converters (no Python install) and compiles a structured wiki entry.
 - **🔄 OpenClaw migration** — Coming from OpenClaw? Settings → Import / Export → "Scan for OpenClaw". One click imports your skills, memories, and API keys. Your OpenClaw files are not modified.
 
 ---
@@ -63,7 +63,8 @@ Type your first mission. Sagit picks the right agent automatically.
 - **Auto / Fast / Expert modes** — Auto picks the cheapest agent; upgrades to Expert when needed
 - **Knowledge Wiki** — import URLs and docs, agents reference them automatically
 - **Document Delivery** — export as PowerPoint or Word with one click
-- **4-layer memory** — Chairman profile, company culture, decisions, learnings, tech stack
+- **Chairman profile** — your preferences, language, style — always injected into every interaction
+- **4-layer memory** — company culture, decisions, learnings, tech stack
 - **Multi-provider routing** — switch models mid-conversation, automatic fallback
 
 ---
