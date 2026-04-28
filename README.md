@@ -10,17 +10,22 @@
 
 <p align="center">
   <a href="https://github.com/sagitai/sagit-releases/releases/latest"><strong>⬇ Download for Mac (Apple Silicon)</strong></a><br>
-  <sub>v1.2.0 · ~150 MB · macOS 12+ · Apple Silicon</sub>
+  <sub>v1.3.0 · ~150 MB · macOS 12+ · Apple Silicon</sub>
 </p>
 
 ---
 
-## 🆕 New in v1.2
+## 🆕 New in v1.3
 
-- **🌙 autoDream** — Daily memory consolidation. Sonnet 4.6 reviews your AI company's memory while you're idle: relative dates become absolute, duplicates merge, superseded entries get removed. 3-layer safety (backup + diary + restore).
-- **🎯 Skill Self-Evolution** — Roles get smarter with use. Sagit scores how well each agent performed (1-5), and when a role consistently scores poorly, generates an improvement suggestion you can review. Human-in-the-loop accept/reject/restore.
-- **📥 Document import** — Drop PDF, Word, or PowerPoint into the Knowledge Wiki. Sagit extracts the text via pure-JS converters (no Python install) and compiles a structured wiki entry.
-- **🔄 OpenClaw migration** — Coming from OpenClaw? Settings → Import / Export → "Scan for OpenClaw". One click imports your skills, memories, and API keys. Your OpenClaw files are not modified.
+- **🎩 39 universal roles** — Invoke any specialist regardless of company template. `software_engineer`, `founding_engineer`, `code_reviewer`, `experiment_evaluator`, `founding_pm`, `product_manager`, `research_reviewer` and 32 others. Your AI org chart adapts to the work.
+
+- **⚙️ Per-role model + fallback chain** — New Settings → Roles tab. 39-row table where you change which model runs each role, set custom fallback chains, reset to defaults. Power user paradise.
+
+- **🔌 GPT-5.5 in tier-default fallback** — When Anthropic API has issues, Sagit auto-tries GPT-5.5 (OpenAI's strongest reasoning model) before falling further down. `high`: Opus 4.7 → **GPT-5.5** → GPT-5.4 → Gemini 3.1 Pro.
+
+- **⏰ Routines on main navigation** — Scheduled tasks promoted from a hidden Settings sub-tab to a first-class sidebar item. Daily market briefs, BTC trackers, weekly standups — set once, run forever.
+
+- **🪶 Founding-stage role naming** — `founding_engineer` and `founding_pm` for startup-style work, alongside production-scale `software_engineer` and `product_manager`. YC vocabulary.
 
 ---
 
