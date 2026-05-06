@@ -74,6 +74,8 @@ Type your first mission. Sagit picks the right agent automatically.
 - **Document Import** — Drop PDF, Word, or PowerPoint into the Knowledge Wiki. Pure-JS converters extract text — no Python install, no external services.
 - **Chairman profile** — your preferences, language, style — always injected into every interaction.
 - **4-layer memory** — company culture, decisions, learnings, tech stack.
+- **autoDream reflection** — Sagit reflects on completed missions and writes the lessons into typed memory files (`learnings.md`, `decisions.md`, `tech-stack.md`). The shared brain that grows with the work.
+- **Skill scoring & rewrite** — every skill gets a 1-5 quality score after each mission. Underperformers surface as rewrite candidates so your prompts sharpen over time.
 - **Multi-provider routing** — switch models mid-conversation, automatic fallback.
 - **OpenClaw migration** — Settings → Import / Export → "Scan for OpenClaw". One click imports your skills, memories, and API keys. Your OpenClaw files are not modified.
 
