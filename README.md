@@ -10,22 +10,22 @@
 
 <p align="center">
   <a href="https://github.com/sagitai/sagit-releases/releases/latest"><strong>⬇ Download for Mac (Apple Silicon)</strong></a><br>
-  <sub>v1.3.0 · ~150 MB · macOS 12+ · Apple Silicon</sub>
+  <sub>v1.4.0 · ~150 MB · macOS 12+ · Apple Silicon</sub>
 </p>
 
 ---
 
-## 🆕 New in v1.3
+## 🆕 New in v1.4 — Self-driving Company
 
-- **🎩 39 universal roles** — 39 universal specialists. Pick any role for any mission. Your org chart, your call.
+- **🤖 4 autonomous Curators** — autoDream, Skill, Memory, plus the shared framework that runs them. They work in the background on their own cadence; every action is logged to `~/.sagit/curator/audit.jsonl` so you can review what they did and why.
 
-- **⚙️ Per-role model + fallback chain** — Per-role model. Per-role fallback chain. Settings → Roles. Power user paradise.
+- **🎯 Unbounded mission storage** — The 100-mission cap is gone. Per-mission directory layout (`~/.sagit/missions/<id>/`) handles 10K+ missions; v1.3 history auto-migrates on first boot.
 
-- **🔌 GPT-5.5 in the fallback chain** — GPT-5.5 in the fallback chain. Anthropic hiccups → OpenAI's strongest takes over.
+- **🔒 Per-skill / per-partition locks** — Manual 🔒 toggles plus 24h auto-lock on hash drift. Skills and memory partitions you've hand-edited won't get overwritten by a Curator.
 
-- **⏰ Routines on main nav** — Routines promoted to main nav. Set once, run forever.
+- **💰 Daily LLM budget cap** — Set a per-day spend limit for autonomous Curators in Settings → Curator Activity. Hot-reloads — no restart, no risk of a runaway dream.
 
-- **🪶 Founding-stage role naming** — Startup mode? founding_engineer + founding_pm. Enterprise? software_engineer + product_manager. Same org chart.
+- **⚡ Parallel team delegation** — Multi-role delegations now run concurrently via `Promise.all`. Measured 3.0× wall-time speedup on a 3-delegate batch.
 
 ---
 
@@ -64,17 +64,18 @@ Type your first mission. Sagit picks the right agent automatically.
 
 ## Other features
 
-- **39 specialist agents** — CEO, CTO, Researcher, Engineer... each is an editable `.skill.md` file
-- **Auto / Fast / Expert modes** — Auto picks the cheapest agent; upgrades to Expert when needed
-- **Knowledge Wiki** — import URLs and docs, agents reference them automatically
-- **Document Delivery** — export as PowerPoint or Word with one click
-- **Chairman profile** — your preferences, language, style — always injected into every interaction
-- **4-layer memory** — company culture, decisions, learnings, tech stack
-- **Multi-provider routing** — switch models mid-conversation, automatic fallback
-- **autoDream** — Daily memory consolidation. Sonnet 4.6 reviews your AI company's memory while you're idle: relative dates become absolute, duplicates merge, superseded entries get removed. 3-layer safety (backup + diary + restore).
-- **Skill Self-Evolution** — Roles get smarter with use. Sagit scores how well each agent performed (1-5), and when a role consistently scores poorly, generates an improvement suggestion you can review. Human-in-the-loop accept/reject/restore.
-- **Document import** — Drop PDF, Word, or PowerPoint into the Knowledge Wiki. Sagit extracts the text via pure-JS converters (no Python install) and compiles a structured wiki entry.
-- **OpenClaw migration** — Coming from OpenClaw? Settings → Import / Export → "Scan for OpenClaw". One click imports your skills, memories, and API keys. Your OpenClaw files are not modified.
+- **39 universal specialists, every one an editable file** — CEO, CTO, Researcher, founding_engineer, founding_pm, software_engineer, product_manager and 32 others. Every agent is a `.skill.md` file you can read, fork, and hot-reload. Pick any role for any mission — same org chart whether you're founding-stage or production-scale.
+- **Per-role model + fallback chain** — Settings → Roles. A 39-row table where you pick the model for each role and set custom fallback chains. Power user paradise.
+- **GPT-5.5 in the fallback chain** — When Anthropic has issues, Sagit auto-tries GPT-5.5 before falling further: Opus 4.7 → GPT-5.5 → GPT-5.4 → Gemini 3.1 Pro.
+- **Routines on main nav** — Scheduled tasks promoted to a first-class sidebar item. Daily briefs, BTC trackers, weekly standups — set once, run forever.
+- **Auto / Fast / Expert modes** — Auto picks the cheapest agent; upgrades to Expert when needed.
+- **Knowledge Wiki** — import URLs and docs, agents reference them automatically.
+- **Document Delivery** — export reports as PowerPoint or Word with one click.
+- **Document Import** — Drop PDF, Word, or PowerPoint into the Knowledge Wiki. Pure-JS converters extract text — no Python install, no external services.
+- **Chairman profile** — your preferences, language, style — always injected into every interaction.
+- **4-layer memory** — company culture, decisions, learnings, tech stack.
+- **Multi-provider routing** — switch models mid-conversation, automatic fallback.
+- **OpenClaw migration** — Settings → Import / Export → "Scan for OpenClaw". One click imports your skills, memories, and API keys. Your OpenClaw files are not modified.
 
 ---
 
