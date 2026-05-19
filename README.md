@@ -6,34 +6,36 @@ The AI company OS — thin harness, skills as markdown, memory on disk, bring yo
 
 ## ⬇️ Download
 
-**Latest**: [Sagit v1.5 — Open Brain](https://github.com/sagitai/sagit-releases/releases/latest)
+**Latest**: [Sagit v1.6 — Self-driving Missions](https://github.com/sagitai/sagit-releases/releases/latest)
 
-`Sagit-1.5.0-arm64.dmg` · Apple Silicon · signed · notarized · stapled
+`Sagit-1.6.0-arm64.dmg` · Apple Silicon · signed · notarized · stapled
 
 100% local · BYOK · macOS Apple Silicon
 
 ---
 
-## ✨ New in v1.5 — Open Brain
+## ✨ New in v1.6 — Self-driving Missions
 
-Your AI company's brain is now open: searchable, expandable, and accessible to your other AI tools.
+You write the goal. The mission drives itself there — running on its own, checking its own work, and staying on course when something gets in the way.
 
-### 🧠 Knowledge Curator
-The 4th autonomous Curator joins the team. Feed Sagit URLs, docs, or notes — they live in a dedicated knowledge layer with LLM-powered cleanup (URL dedup, tag normalization, stale marking). 🔒 Lock anything you don't want touched.
+### ⚡ Runs in the background
+Submit a mission and step away — it executes on its own while you open another chat, change settings, or start a second mission. No spinner to babysit.
 
-### 🔍 Mission Search
-Full-text search across missions, memory, and knowledge with BM25 ranking and snippet highlights. Powered by SQLite FTS5, sub-millisecond across tens of thousands of records. Agents can search too — via the `memory_search` tool.
+### 🔁 Checks its own work
+A mission no longer hands you a rough draft. A built-in review loop judges each result and reworks it until it holds up — you get the finished answer, not the first attempt.
 
-### 🌉 Sagit MCP Server
-Expose Sagit's memory and knowledge to Claude Code, Codex, Gemini CLI, or any MCP-compatible tool. Your AI company's brain becomes the context layer for every coding tool you already use.
+### 🛡️ Stays on course
+Switch views, refresh the page, restart, crash — the mission keeps its place and picks back up. Interrupted runs wait in the Archive, one click to resume.
 
-[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v1.5.0)
+[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v1.6.0)
 
 ---
 
 ## 🏗 Built on a foundation that won't go away
 
-**Self-driving Company** (v1.4) — Autonomous Curators with auto + manual lanes (autoDream, Skill, Memory, plus Knowledge in v1.5). Per-mission directory storage handles 10K+ records. Parallel DELEGATE for 3.0× faster multi-role workflows. Reviewer headroom 4× so long missions never silently truncate.
+**Self-driving Company** (v1.4) — Autonomous Curators with auto + manual lanes (autoDream, Skill, Memory, Knowledge). Per-mission directory storage handles 10K+ records. Parallel DELEGATE for 3.0× faster multi-role workflows. Reviewer headroom 4× so long missions never silently truncate.
+
+**Open Brain** (v1.5) — A dedicated Knowledge layer (4th autonomous Curator) for URLs, docs, and notes, with LLM-powered cleanup and locks. Full-text Mission Search across missions, memory, and knowledge with BM25 ranking — SQLite FTS5, sub-millisecond. The Sagit MCP server exposes the same brain to Claude Code, Codex, Gemini CLI, or any MCP-compatible tool.
 
 **Org chart** — 39 universal roles, 5 company templates (Default / YC Startup / Trading Desk / Research Lab / Software Dev), more on SagitMall.
 
