@@ -2,32 +2,60 @@
 
 > "You aim. Sagit fires."
 
-The AI company OS — thin harness, skills as markdown, memory on disk, bring your own provider.
+**GUI control center for Claude Code.**
+One app, multiple projects · one key, multiple models · crypto-native payment.
 
 ## ⬇️ Download
 
-**Latest**: [Sagit v1.6 — Self-driving Missions](https://github.com/sagitai/sagit-releases/releases/latest)
+**Latest**: [Sagit v2.0 — GUI control center for Claude Code](https://github.com/sagitai/sagit-releases/releases/latest)
 
-`Sagit-1.6.0-arm64.dmg` · Apple Silicon · signed · notarized · stapled
+`Sagit-2.0.0-arm64.dmg` · Apple Silicon · signed · notarized · stapled
 
 100% local · BYOK · macOS Apple Silicon
 
 ---
 
-## ✨ New in v1.6 — Self-driving Missions
+## ✨ New in v2.0 — GUI control center for Claude Code
 
-You write the goal. The mission drives itself there — running on its own, checking its own work, and staying on course when something gets in the way.
+A desktop app for running Claude Code without the terminal — multiple projects in tabs, multiple models behind one key, bilingual UI, and a payment path that doesn't require a credit card.
 
-### ⚡ Runs in the background
-Submit a mission and step away — it executes on its own while you open another chat, change settings, or start a second mission. No spinner to babysit.
+### 🖥 Desktop GUI for multiple Claude Code sessions
+Tab between projects on a single screen. No `cd` in a terminal — start, restart, and stop sessions with one click.
 
-### 🔁 Checks its own work
-A mission no longer hands you a rough draft. A built-in review loop judges each result and reworks it until it holds up — you get the finished answer, not the first attempt.
+### 🔑 Bring your own key — three ways
+Pick whichever matches how you already pay:
 
-### 🛡️ Stays on course
-Switch views, refresh the page, restart, crash — the mission keeps its place and picks back up. Interrupted runs wait in the Archive, one click to resume.
+- **Claude Pro / Max subscription** — zero-touch; Sagit doesn't change your Claude Code config.
+- **Anthropic API key** — pay per token, direct.
+- **ClawAPI key** (recommended) — one key for many models, top up with USDC or USDT.
 
-[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v1.6.0)
+### 🌐 Multi-model access via ClawAPI
+A single ClawAPI key reaches `claude-opus-4-7`, `claude-sonnet-4-6` (default), `gpt-5.5`, `gpt-5.4`, `gpt-5.4-mini`, `gemini-3.1-pro`, `gemini-3.1-flash-lite`, `gpt-oss-120b`, and `gpt-oss-20b`. More on the way.
+
+### 🇨🇳 Works in mainland China
+The ClawAPI gateway is reachable from inside China, and Sagit automatically handles the new-machine onboarding step that normally blocks Claude Code. No VPN required.
+
+### 💳 Crypto-native payment (USDC / USDT)
+No credit card. No Anthropic account.
+
+### 🌏 中文 / English UI, auto-switch
+Follows your system language. Manual override in Settings. Persists across sessions.
+
+### ⚡ Zero-config onboarding
+Install the DMG → open → paste your ClawAPI key → running Claude Code in five seconds.
+
+[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v2.0.0)
+
+---
+
+## 🗺 Roadmap
+
+- **v2.0** (now) — Claude Code GUI + multi-model BYOK
+- **v2.1** — + OpenAI Codex (full ClawAPI integration)
+- **v2.3** — + Google Gemini CLI
+- **v2.4** — + xAI Grok Build
+
+**Vision**: one app to manage all your AI coding agents.
 
 ---
 
@@ -36,6 +64,8 @@ Switch views, refresh the page, restart, crash — the mission keeps its place a
 **Self-driving Company** (v1.4) — Autonomous Curators with auto + manual lanes (autoDream, Skill, Memory, Knowledge). Per-mission directory storage handles 10K+ records. Parallel DELEGATE for 3.0× faster multi-role workflows. Reviewer headroom 4× so long missions never silently truncate.
 
 **Open Brain** (v1.5) — A dedicated Knowledge layer (4th autonomous Curator) for URLs, docs, and notes, with LLM-powered cleanup and locks. Full-text Mission Search across missions, memory, and knowledge with BM25 ranking — SQLite FTS5, sub-millisecond. The Sagit MCP server exposes the same brain to Claude Code, Codex, Gemini CLI, or any MCP-compatible tool.
+
+**Self-driving Missions** (v1.6) — Missions run in the background while you work elsewhere; a built-in review loop checks each result and reworks it until it holds up. Interrupted runs wait in the Archive — one click to resume.
 
 **Org chart** — 39 universal roles, 5 company templates (Default / YC Startup / Trading Desk / Research Lab / Software Dev), more on SagitMall.
 
