@@ -32,9 +32,6 @@ Pick whichever matches how you already pay:
 ### 🌐 Multi-model access via ClawAPI
 A single ClawAPI key reaches `claude-opus-4-7`, `claude-sonnet-4-6` (default), `gpt-5.5`, `gpt-5.4`, `gpt-5.4-mini`, `gemini-3.1-pro`, `gemini-3.1-flash-lite`, `gpt-oss-120b`, and `gpt-oss-20b`. More on the way.
 
-### 🇨🇳 Works in mainland China
-The ClawAPI gateway is reachable from inside China, and Sagit automatically handles the new-machine onboarding step that normally blocks Claude Code. No VPN required.
-
 ### 💳 Crypto-native payment (USDC / USDT)
 No credit card. No Anthropic account.
 
