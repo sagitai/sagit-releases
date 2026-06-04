@@ -2,27 +2,33 @@
 
 > "You aim. Sagit fires."
 
-**GUI control center for Claude Code.**
-One app, multiple projects · one key, multiple models · crypto-native payment.
+**One app for Claude Code and Codex — now with the most capable Opus 4.8.**
+GUI control center for your AI coding agents · one key, multiple models · crypto-native payment.
 
 ## ⬇️ Download
 
-**Latest**: [Sagit v2.0 — GUI control center for Claude Code](https://github.com/sagitai/sagit-releases/releases/latest)
+**Latest**: [Sagit v2.1 — one app for Claude Code and Codex](https://github.com/sagitai/sagit-releases/releases/latest)
 
-`Sagit-2.0.0-arm64.dmg` · Apple Silicon · signed · notarized · stapled
+`Sagit-2.1.0-arm64.dmg` · Apple Silicon · signed · notarized · stapled
 
 100% local · BYOK · macOS Apple Silicon
 
 ---
 
-## ✨ New in v2.0 — GUI control center for Claude Code
+## ✨ New in v2.1 — one app for Claude Code and Codex
 
-A desktop app for running Claude Code without the terminal — multiple projects in tabs, multiple models behind one key, bilingual UI, and a payment path that doesn't require a credit card.
+A desktop app for running Claude Code and OpenAI Codex without the terminal. Claude Code reaches Anthropic's most capable Opus 4.8 (and more) through a single ClawAPI key; Codex runs on the ChatGPT subscription you already pay for. Multiple projects in tabs, bilingual UI, and a payment path that doesn't require a credit card.
 
-### 🖥 Desktop GUI for multiple Claude Code sessions
-Tab between projects on a single screen. No `cd` in a terminal — start, restart, and stop sessions with one click.
+### 🖥 Two coding agents, one desktop — Claude Code + Codex
+Drive Claude Code and OpenAI Codex side by side. Tab between projects on a single screen — no `cd` in a terminal — start, restart, and stop sessions with one click.
 
-### 🔑 Bring your own key — three ways
+### 🧠 Claude Opus 4.8 — Anthropic's most capable model
+Claude Code now reaches `claude-opus-4-8` through ClawAPI — the new default for Chat and Code Manager. Code Manager keeps `claude-opus-4-7` on hand too.
+
+### 🟢 Codex on your own ChatGPT subscription
+OpenAI Codex runs with your own ChatGPT subscription or API key (`~/.codex/` config). Zero extra setup — Sagit launches Codex with the plan you already pay for.
+
+### 🔑 Bring your own key — three ways (Claude Code)
 Pick whichever matches how you already pay:
 
 - **Claude Pro / Max subscription** — zero-touch; Sagit doesn't change your Claude Code config.
@@ -30,7 +36,7 @@ Pick whichever matches how you already pay:
 - **ClawAPI key** (recommended) — one key for many models, top up with USDC or USDT.
 
 ### 🌐 Multi-model access via ClawAPI
-A single ClawAPI key reaches `claude-opus-4-7`, `claude-sonnet-4-6` (default), `gpt-5.5`, `gpt-5.4`, `gpt-5.4-mini`, `gemini-3.1-pro`, `gemini-3.1-flash-lite`, `gpt-oss-120b`, and `gpt-oss-20b`. More on the way.
+A single ClawAPI key reaches `claude-opus-4-8` (default), `claude-sonnet-4-6`, `gpt-5.5`, `gpt-5.4`, `gpt-5.4-mini`, `gemini-3.1-pro`, and `gemini-3.1-flash-lite`. More on the way.
 
 ### 💳 Crypto-native payment (USDC / USDT)
 No credit card. No Anthropic account.
@@ -41,18 +47,7 @@ Follows your system language. Manual override in Settings. Persists across sessi
 ### ⚡ Zero-config onboarding
 Install the DMG → open → paste your ClawAPI key → running Claude Code in five seconds.
 
-[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v2.0.0)
-
----
-
-## 🗺 Roadmap
-
-- **v2.0** (now) — Claude Code GUI + multi-model BYOK
-- **v2.1** — + OpenAI Codex (full ClawAPI integration)
-- **v2.3** — + Google Gemini CLI
-- **v2.4** — + xAI Grok Build
-
-**Vision**: one app to manage all your AI coding agents.
+[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v2.1.0)
 
 ---
 
