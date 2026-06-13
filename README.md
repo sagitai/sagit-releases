@@ -2,8 +2,8 @@
 
 > "You aim. Sagit fires."
 
-**One app for Claude Code and Codex — now with the most capable Opus 4.8.**
-GUI control center for your AI coding agents · one key, multiple models · crypto-native payment.
+**Sagit Code inside. Any model.**
+Point it at a project · reads, writes, runs · always asks first.
 
 ## ⬇️ Download
 
