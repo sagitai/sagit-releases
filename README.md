@@ -7,30 +7,29 @@ Point it at a project · reads, writes, runs · always asks first.
 
 ## ⬇️ Download
 
-**Latest**: [Sagit v2.2 — Sagit Code](https://github.com/sagitai/sagit-releases/releases/latest)
+**Latest**: [Sagit v2.3 — Long Memory for Sagit Code](https://github.com/sagitai/sagit-releases/releases/latest)
 
-`Sagit-2.2.0-arm64.dmg` · Apple Silicon · signed · notarized · stapled
+`Sagit-2.3.0-arm64.dmg` · Apple Silicon · signed · notarized · stapled
 
 100% local · BYOK · macOS Apple Silicon
 
 ---
 
-## ✨ New in v2.2 — Sagit Code: any model, fully in your control
+## ✨ New in v2.3 — Long Memory for Sagit Code
 
-**Sagit Code — your built-in coding agent.** Point it at a project, describe what you want, and it gets to work — reading files, writing code, running commands. Run any model as your coding agent through ClawAPI.
+**Sagit Code now has long memory.** Conversations are saved and restored automatically, so no session is ever lost to a restart.
 
-You stay in control the whole way:
+- 🧠 **Persistent conversations** — Quit and reopen; every Sagit Code session continues with its full history — what you discussed, which files it touched, what you decided.
+- 🗂️ **Per-session memory** — Each project tab keeps its own independent thread.
+- 💬 **Clearer limits** — When a conversation grows too long, you get a plain "start a new session — this one stays saved", not a cryptic error.
 
-- **It asks when it's unsure** — no guessing on decisions only you can make.
-- **It confirms before deleting** — destructive operations always wait for your OK; everything else just runs, no friction.
-- **You see every change** — each edit shows a clear, expandable diff of exactly what changed.
-- **Stop means stop** — hit Stop and the run halts instantly, no work happening in the background.
-
-[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v2.2.0)
+[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v2.3.0)
 
 ---
 
 ## 🏗 Built on a foundation that won't go away
+
+**Sagit Code** (v2.2) — Your built-in coding agent: point it at a project, describe what you want, and it gets to work — reading files, writing code, running commands. Run any model as your coding agent through ClawAPI, and you stay in control the whole way: it asks when it's unsure — no guessing on decisions only you can make; it confirms before deleting — destructive operations always wait for your OK, everything else just runs, no friction; you see every change — each edit shows a clear, expandable diff of exactly what changed; and Stop means stop — hit Stop and the run halts instantly, no work happening in the background.
 
 **One app for Claude Code and Codex** (v2.1) — Drive Claude Code and OpenAI Codex side by side, tabbed by project — no `cd` in a terminal; start, restart, and stop with one click. Claude Code reaches Anthropic's most capable `claude-opus-4-8` through ClawAPI — the new default for Chat and Code Manager (with `claude-opus-4-7` on hand); Codex runs on your own ChatGPT subscription or API key (`~/.codex/`), zero extra setup. Bring your own key three ways — Claude Pro / Max subscription (zero-touch), Anthropic API key (pay per token), or ClawAPI key (recommended). A single ClawAPI key reaches `claude-opus-4-8`, `claude-sonnet-4-6`, `gpt-5.5`, `gpt-5.4`, `gpt-5.4-mini`, `gemini-3.1-pro`, and `gemini-3.1-flash-lite` — more on the way. Crypto-native payment with USDC / USDT — no credit card, no Anthropic account. 中文 / English UI auto-switches with your system language. Zero-config onboarding — install the DMG, paste your ClawAPI key, running in five seconds.
 
