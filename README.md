@@ -7,27 +7,29 @@ Point it at a project · reads, writes, runs · always asks first.
 
 ## ⬇️ Download
 
-**Latest**: [Sagit v2.3 — Long Memory for Sagit Code](https://github.com/sagitai/sagit-releases/releases/latest)
+**Latest**: [Sagit v2.4 — Project Memory](https://github.com/sagitai/sagit-releases/releases/latest)
 
-`Sagit-2.3.0-arm64.dmg` · Apple Silicon · signed · notarized · stapled
+`Sagit-2.4.0-arm64.dmg` · Apple Silicon · signed · notarized · stapled
 
 100% local · BYOK · macOS Apple Silicon
 
 ---
 
-## ✨ New in v2.3 — Long Memory for Sagit Code
+## ✨ New in v2.4 — Project Memory
 
-**Sagit Code now has long memory.** Conversations are saved and restored automatically, so no session is ever lost to a restart.
+**Every project gets its own memory.** Sagit Code keeps a `sagit.md` in each project and reads it on every run, so the agent always starts with the full picture.
 
-- 🧠 **Persistent conversations** — Quit and reopen; every Sagit Code session continues with its full history — what you discussed, which files it touched, what you decided.
-- 🗂️ **Per-session memory** — Each project tab keeps its own independent thread.
-- 💬 **Clearer limits** — When a conversation grows too long, you get a plain "start a new session — this one stays saved", not a cryptic error.
+- 📝 **Per-project memory** — Each project gets a `sagit.md`; Sagit Code reads it on every run, so the agent always has the project's full context — plan, progress, decisions, gotchas.
+- 🤖 **Maintained automatically** — The agent updates `sagit.md` after meaningful work and keeps it concise — a one-page brief, not a log.
+- ✏️ **Editable panel** — A collapsible Project Memory panel lets you read and edit it anytime; it auto-refreshes after each run, and your edits are preserved.
 
-[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v2.3.0)
+[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v2.4.0)
 
 ---
 
 ## 🏗 Built on a foundation that won't go away
+
+**Long Memory** (v2.3) — Sagit Code now has long memory: conversations are saved and restored automatically, so no session is ever lost to a restart. Persistent conversations: quit and reopen; every Sagit Code session continues with its full history — what you discussed, which files it touched, what you decided. Per-session memory: each project tab keeps its own independent thread. Clearer limits: when a conversation grows too long, you get a plain "start a new session — this one stays saved", not a cryptic error.
 
 **Sagit Code** (v2.2) — Your built-in coding agent: point it at a project, describe what you want, and it gets to work — reading files, writing code, running commands. Run any model as your coding agent through ClawAPI, and you stay in control the whole way: it asks when it's unsure — no guessing on decisions only you can make; it confirms before deleting — destructive operations always wait for your OK, everything else just runs, no friction; you see every change — each edit shows a clear, expandable diff of exactly what changed; and Stop means stop — hit Stop and the run halts instantly, no work happening in the background.
 
