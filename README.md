@@ -7,7 +7,7 @@ Point it at a project · reads, writes, runs · always asks first.
 
 ## ⬇️ Download
 
-**Latest**: [Sagit v2.5 — It Knows Your Codebase (Without the Cloud)](https://github.com/sagitai/sagit-releases/releases/latest)
+**Latest**: [Sagit v2.5 — Sagit Code Knows Your Codebase (Without the Cloud)](https://github.com/sagitai/sagit-releases/releases/latest)
 
 `Sagit-2.5.0-arm64.dmg` · Apple Silicon · signed · notarized · stapled
 
