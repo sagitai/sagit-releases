@@ -7,27 +7,29 @@ Point it at a project · reads, writes, runs · always asks first.
 
 ## ⬇️ Download
 
-**Latest**: [Sagit v2.4 — Project Memory](https://github.com/sagitai/sagit-releases/releases/latest)
+**Latest**: [Sagit v2.5 — It Knows Your Codebase (Without the Cloud)](https://github.com/sagitai/sagit-releases/releases/latest)
 
-`Sagit-2.4.0-arm64.dmg` · Apple Silicon · signed · notarized · stapled
+`Sagit-2.5.0-arm64.dmg` · Apple Silicon · signed · notarized · stapled
 
 100% local · BYOK · macOS Apple Silicon
 
 ---
 
-## ✨ New in v2.4 — Project Memory
+## ✨ New in v2.5 — Sagit Code knows your codebase, 100% locally
 
-**Every project gets its own memory.** Sagit Code keeps a `sagit.md` in each project and reads it on every run, so the agent always starts with the full picture.
+**Sagit Code knows your codebase — 100% locally.** It keeps a local index of your whole project, finds the right files across the codebase on its own, and never uploads a line — no cloud, no pointing the way.
 
-- 📝 **Per-project memory** — Each project gets a `sagit.md`; Sagit Code reads it on every run, so the agent always has the project's full context — plan, progress, decisions, gotchas.
-- 🤖 **Maintained automatically** — The agent updates `sagit.md` after meaningful work and keeps it concise — a one-page brief, not a log.
-- ✏️ **Editable panel** — A collapsible Project Memory panel lets you read and edit it anytime; it auto-refreshes after each run, and your edits are preserved.
+- 🔒 **Understands your code, 100% on your machine** — Sagit Code keeps a local index of the whole project and finds relevant code across the codebase — no cloud, no upload, no vendor servers. Codebase understanding with zero privacy trade-off.
+- 🧭 **No need to point the way** — Ask for a change and it locates the right files itself, even when you don't know where the logic lives: it searches, reads, then edits. Fewer steps, less back-and-forth.
+- ⚡ **Zero setup, always current** — The index builds itself on first use and refreshes only what changed; it respects your ignore rules and skips oversized and binary files. No reindex button, no waiting.
 
-[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v2.4.0)
+[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v2.5.0)
 
 ---
 
 ## 🏗 Built on a foundation that won't go away
+
+**Project Memory** (v2.4) — Every project gets its own memory: Sagit Code keeps a `sagit.md` in each project and reads it on every run, so the agent always starts with the full picture. Per-project memory: each project gets a `sagit.md`; Sagit Code reads it on every run, so the agent always has the project's full context — plan, progress, decisions, gotchas. Maintained automatically: the agent updates `sagit.md` after meaningful work and keeps it concise — a one-page brief, not a log. Editable panel: a collapsible Project Memory panel lets you read and edit it anytime; it auto-refreshes after each run, and your edits are preserved.
 
 **Long Memory** (v2.3) — Sagit Code now has long memory: conversations are saved and restored automatically, so no session is ever lost to a restart. Persistent conversations: quit and reopen; every Sagit Code session continues with its full history — what you discussed, which files it touched, what you decided. Per-session memory: each project tab keeps its own independent thread. Clearer limits: when a conversation grows too long, you get a plain "start a new session — this one stays saved", not a cryptic error.
 
