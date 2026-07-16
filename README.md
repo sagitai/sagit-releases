@@ -7,27 +7,30 @@ Point it at a project · reads, writes, runs · always asks first.
 
 ## ⬇️ Download
 
-**Latest**: [Sagit v2.5 — Sagit Code Knows Your Codebase (Without the Cloud)](https://github.com/sagitai/sagit-releases/releases/latest)
+**Latest**: [Sagit v2.5.2 — Expert Mode, Supercharged](https://github.com/sagitai/sagit-releases/releases/latest)
 
-`Sagit-2.5.0-arm64.dmg` · Apple Silicon · signed · notarized · stapled
+`Sagit-2.5.2-arm64.dmg` · Apple Silicon · signed · notarized · stapled
 
 100% local · BYOK · macOS Apple Silicon
 
 ---
 
-## ✨ New in v2.5 — Sagit Code knows your codebase, 100% locally
+## ✨ New in v2.5.2 — Expert Mode, Supercharged
 
-**Sagit Code knows your codebase — 100% locally.** It keeps a local index of your whole project, finds the right files across the codebase on its own, and never uploads a line — no cloud, no pointing the way.
+**Expert mode's research roles now go deeper** — sharper web research, live market data, and figures computed from real inputs. Professional-grade answers, faster.
 
-- 🔒 **Understands your code, 100% on your machine** — Sagit Code keeps a local index of the whole project and finds relevant code across the codebase — no cloud, no upload, no vendor servers. Codebase understanding with zero privacy trade-off.
-- 🧭 **No need to point the way** — Ask for a change and it locates the right files itself, even when you don't know where the logic lives: it searches, reads, then edits. Fewer steps, less back-and-forth.
-- ⚡ **Zero setup, always current** — The index builds itself on first use and refreshes only what changed; it respects your ignore rules and skips oversized and binary files. No reindex button, no waiting.
+- 🔍 **Deeper research** — research roles run a full think-act-observe loop: search, verify, compute — live data in one round
+- 📈 **Live stock quotes** — stocks join crypto in the price feed; international tickers (like 000660.KS) handled automatically
+- 🧮 **Computed, not copied** — fast-moving figures like market cap are calculated from live inputs, not quoted from stale pages
+- 🛡️ **Right-sized models** — tool-carrying roles always run on mid-tier models or above
 
-[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v2.5.0)
+[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v2.5.2)
 
 ---
 
 ## 🏗 Built on a foundation that won't go away
+
+**Codebase Understanding** (v2.5) — Sagit Code knows your codebase — 100% locally. It keeps a local index of your whole project, finds the right files across the codebase on its own, and never uploads a line — no cloud, no pointing the way. Understands your code, 100% on your machine: Sagit Code keeps a local index of the whole project and finds relevant code across the codebase — no cloud, no upload, no vendor servers. Codebase understanding with zero privacy trade-off. No need to point the way: ask for a change and it locates the right files itself, even when you don't know where the logic lives: it searches, reads, then edits. Fewer steps, less back-and-forth. Zero setup, always current: the index builds itself on first use and refreshes only what changed; it respects your ignore rules and skips oversized and binary files. No reindex button, no waiting.
 
 **Project Memory** (v2.4) — Every project gets its own memory: Sagit Code keeps a `sagit.md` in each project and reads it on every run, so the agent always starts with the full picture. Per-project memory: each project gets a `sagit.md`; Sagit Code reads it on every run, so the agent always has the project's full context — plan, progress, decisions, gotchas. Maintained automatically: the agent updates `sagit.md` after meaningful work and keeps it concise — a one-page brief, not a log. Editable panel: a collapsible Project Memory panel lets you read and edit it anytime; it auto-refreshes after each run, and your edits are preserved.
 
