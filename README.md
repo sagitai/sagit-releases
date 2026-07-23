@@ -7,28 +7,30 @@ Point it at a project · reads, writes, runs · always asks first.
 
 ## ⬇️ Download
 
-**Latest**: [Sagit v2.6 — Checkpoints](https://github.com/sagitai/sagit-releases/releases/latest)
+**Latest**: [Sagit v2.7 — Endless Context](https://github.com/sagitai/sagit-releases/releases/latest)
 
-`Sagit-2.6.0-arm64.dmg` · Apple Silicon · signed · notarized · stapled
+`Sagit-2.7.0-arm64.dmg` · Apple Silicon · signed · notarized · stapled
 
 100% local · BYOK · macOS Apple Silicon
 
 ---
 
-## ✨ New in v2.6 — Checkpoints
+## ✨ New in v2.7 — Endless Context
 
-**Sagit Code works autonomously — and now every change it makes is one click reversible.** Each run automatically checkpoints the files it's about to touch. Don't like the result? Restore, instantly.
+**Long sessions, light context.** Sagit Code now carries only what it needs — reading files in slices, compacting old history automatically, and searching its own session memory on demand. Faster, cheaper, sharper — on any model, any window.
 
-- ↩️ **Every run, auto-checkpointed** — before Sagit Code modifies a file, the original is saved; zero setup, invisible until needed
-- 🎯 **Restore your way** — one click reverts everything a run changed, or pick just the files you want; new files cleanly removed
-- 🛡️ **Safe by design** — restores guarded while a run is in progress; every restore shows exactly what it will do first
-- 📊 **Context at a glance** — a usage bar shows how full the model's context is, before it becomes a problem
+- 📖 **Reads in slices** — large files come in by the region, not the whole thing; the agent asks for exactly the lines it needs
+- 🗜️ **Compacts itself** — older history is pruned and summarized automatically as sessions grow, recent conversation kept verbatim
+- 🔎 **Remembers by searching** — the agent searches its own session history; past decisions and pruned details are one lookup away
+- 🪟 **Window-aware** — context budgeting adapts to each model's real window, from 192K to 1M
 
-[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v2.6.0)
+[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v2.7.0)
 
 ---
 
 ## 🏗 Built on a foundation that won't go away
+
+**Checkpoints** (v2.6) — Sagit Code works autonomously — and now every change it makes is one click reversible. Each run automatically checkpoints the files it's about to touch. Don't like the result? Restore, instantly. Every run, auto-checkpointed: before Sagit Code modifies a file, the original is saved; zero setup, invisible until needed. Restore your way: one click reverts everything a run changed, or pick just the files you want; new files cleanly removed. Safe by design: restores guarded while a run is in progress; every restore shows exactly what it will do first. Context at a glance: a usage bar shows how full the model's context is, before it becomes a problem.
 
 **Expert Mode, Supercharged** (v2.5.2) — Expert mode's research roles now go deeper — sharper web research, live market data, and figures computed from real inputs. Professional-grade answers, faster. Deeper research: research roles run a full think-act-observe loop: search, verify, compute — live data in one round. Live stock quotes: stocks join crypto in the price feed; international tickers (like 000660.KS) handled automatically. Computed, not copied: fast-moving figures like market cap are calculated from live inputs, not quoted from stale pages. Right-sized models: tool-carrying roles always run on mid-tier models or above.
 
