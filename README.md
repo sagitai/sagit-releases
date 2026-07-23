@@ -7,28 +7,30 @@ Point it at a project · reads, writes, runs · always asks first.
 
 ## ⬇️ Download
 
-**Latest**: [Sagit v2.5.2 — Expert Mode, Supercharged](https://github.com/sagitai/sagit-releases/releases/latest)
+**Latest**: [Sagit v2.6 — Checkpoints](https://github.com/sagitai/sagit-releases/releases/latest)
 
-`Sagit-2.5.2-arm64.dmg` · Apple Silicon · signed · notarized · stapled
+`Sagit-2.6.0-arm64.dmg` · Apple Silicon · signed · notarized · stapled
 
 100% local · BYOK · macOS Apple Silicon
 
 ---
 
-## ✨ New in v2.5.2 — Expert Mode, Supercharged
+## ✨ New in v2.6 — Checkpoints
 
-**Expert mode's research roles now go deeper** — sharper web research, live market data, and figures computed from real inputs. Professional-grade answers, faster.
+**Sagit Code works autonomously — and now every change it makes is one click reversible.** Each run automatically checkpoints the files it's about to touch. Don't like the result? Restore, instantly.
 
-- 🔍 **Deeper research** — research roles run a full think-act-observe loop: search, verify, compute — live data in one round
-- 📈 **Live stock quotes** — stocks join crypto in the price feed; international tickers (like 000660.KS) handled automatically
-- 🧮 **Computed, not copied** — fast-moving figures like market cap are calculated from live inputs, not quoted from stale pages
-- 🛡️ **Right-sized models** — tool-carrying roles always run on mid-tier models or above
+- ↩️ **Every run, auto-checkpointed** — before Sagit Code modifies a file, the original is saved; zero setup, invisible until needed
+- 🎯 **Restore your way** — one click reverts everything a run changed, or pick just the files you want; new files cleanly removed
+- 🛡️ **Safe by design** — restores guarded while a run is in progress; every restore shows exactly what it will do first
+- 📊 **Context at a glance** — a usage bar shows how full the model's context is, before it becomes a problem
 
-[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v2.5.2)
+[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v2.6.0)
 
 ---
 
 ## 🏗 Built on a foundation that won't go away
+
+**Expert Mode, Supercharged** (v2.5.2) — Expert mode's research roles now go deeper — sharper web research, live market data, and figures computed from real inputs. Professional-grade answers, faster. Deeper research: research roles run a full think-act-observe loop: search, verify, compute — live data in one round. Live stock quotes: stocks join crypto in the price feed; international tickers (like 000660.KS) handled automatically. Computed, not copied: fast-moving figures like market cap are calculated from live inputs, not quoted from stale pages. Right-sized models: tool-carrying roles always run on mid-tier models or above.
 
 **Codebase Understanding** (v2.5) — Sagit Code knows your codebase — 100% locally. It keeps a local index of your whole project, finds the right files across the codebase on its own, and never uploads a line — no cloud, no pointing the way. Understands your code, 100% on your machine: Sagit Code keeps a local index of the whole project and finds relevant code across the codebase — no cloud, no upload, no vendor servers. Codebase understanding with zero privacy trade-off. No need to point the way: ask for a change and it locates the right files itself, even when you don't know where the logic lives: it searches, reads, then edits. Fewer steps, less back-and-forth. Zero setup, always current: the index builds itself on first use and refreshes only what changed; it respects your ignore rules and skips oversized and binary files. No reindex button, no waiting.
 
