@@ -7,28 +7,30 @@ Point it at a project · reads, writes, runs · always asks first.
 
 ## ⬇️ Download
 
-**Latest**: [Sagit v2.7 — Endless Context](https://github.com/sagitai/sagit-releases/releases/latest)
+**Latest**: [Sagit v2.8 — Reliable Edits](https://github.com/sagitai/sagit-releases/releases/latest)
 
-`Sagit-2.7.0-arm64.dmg` · Apple Silicon · signed · notarized · stapled
+`Sagit-2.8.0-arm64.dmg` · Apple Silicon · signed · notarized · stapled
 
 100% local · BYOK · macOS Apple Silicon
 
 ---
 
-## ✨ New in v2.7 — Endless Context
+## ✨ New in v2.8 — Reliable Edits
 
-**Long sessions, light context.** Sagit Code now carries only what it needs — reading files in slices, compacting old history automatically, and searching its own session memory on demand. Faster, cheaper, sharper — on any model, any window.
+**Checks its own work.** Before saying done on a TypeScript project, Sagit Code runs the compiler, fixes what it finds, and only then reports complete — with a "verified" badge to prove it.
 
-- 📖 **Reads in slices** — large files come in by the region, not the whole thing; the agent asks for exactly the lines it needs
-- 🗜️ **Compacts itself** — older history is pruned and summarized automatically as sessions grow, recent conversation kept verbatim
-- 🔎 **Remembers by searching** — the agent searches its own session history; past decisions and pruned details are one lookup away
-- 🪟 **Window-aware** — context budgeting adapts to each model's real window, from 192K to 1M
+- 🩺 **Verified before done** — after making changes, Sagit Code runs your project's own type check; if anything broke, it fixes it before finishing
+- ✓ **The verified badge** — completed runs show at a glance that the project check passed; if issues remain, it says so honestly
+- ⏱️ **Alive, not stuck** — long-running commands show a live elapsed counter, so you always know work is happening
+- 🎯 **Zero setup** — works automatically on TypeScript projects with a local compiler; everywhere else, nothing changes
 
-[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v2.7.0)
+[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v2.8.0)
 
 ---
 
 ## 🏗 Built on a foundation that won't go away
+
+**Endless Context** (v2.7) — Long sessions, light context. Sagit Code now carries only what it needs — reading files in slices, compacting old history automatically, and searching its own session memory on demand. Faster, cheaper, sharper — on any model, any window. Reads in slices: large files come in by the region, not the whole thing; the agent asks for exactly the lines it needs. Compacts itself: older history is pruned and summarized automatically as sessions grow, recent conversation kept verbatim. Remembers by searching: the agent searches its own session history; past decisions and pruned details are one lookup away. Window-aware: context budgeting adapts to each model's real window, from 192K to 1M.
 
 **Checkpoints** (v2.6) — Sagit Code works autonomously — and now every change it makes is one click reversible. Each run automatically checkpoints the files it's about to touch. Don't like the result? Restore, instantly. Every run, auto-checkpointed: before Sagit Code modifies a file, the original is saved; zero setup, invisible until needed. Restore your way: one click reverts everything a run changed, or pick just the files you want; new files cleanly removed. Safe by design: restores guarded while a run is in progress; every restore shows exactly what it will do first. Context at a glance: a usage bar shows how full the model's context is, before it becomes a problem.
 
