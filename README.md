@@ -7,28 +7,30 @@ Point it at a project · reads, writes, runs · always asks first.
 
 ## ⬇️ Download
 
-**Latest**: [Sagit v2.8 — Reliable Edits](https://github.com/sagitai/sagit-releases/releases/latest)
+**Latest**: [Sagit v2.9 — Connect & Oversee](https://github.com/sagitai/sagit-releases/releases/latest)
 
-`Sagit-2.8.0-arm64.dmg` · Apple Silicon · signed · notarized · stapled
+`Sagit-2.9.0-arm64.dmg` · Apple Silicon · signed · notarized · stapled
 
 100% local · BYOK · macOS Apple Silicon
 
 ---
 
-## ✨ New in v2.8 — Reliable Edits
+## ✨ New in v2.9 — Connect & Oversee
 
-**Checks its own work.** Before saying done on a TypeScript project, Sagit Code runs the compiler, fixes what it finds, and only then reports complete — with a "verified" badge to prove it.
+**Connect your tools. Oversee every run.** Sagit Code now speaks Model Context Protocol — plug in any MCP server and its tools join the work mid-run, while status lights and live tab badges show exactly where everything stands.
 
-- 🩺 **Verified before done** — after making changes, Sagit Code runs your project's own type check; if anything broke, it fixes it before finishing
-- ✓ **The verified badge** — completed runs show at a glance that the project check passed; if issues remain, it says so honestly
-- ⏱️ **Alive, not stuck** — long-running commands show a live elapsed counter, so you always know work is happening
-- 🎯 **Zero setup** — works automatically on TypeScript projects with a local compiler; everywhere else, nothing changes
+- 🔌 **MCP servers, plugged in** — connect any Model Context Protocol server and Sagit Code uses its tools mid-run: query real databases, read issues, pull live data
+- 📋 **Paste and go** — a visual panel to add servers: paste the same JSON you use in Claude Desktop or Cursor and it just works; one-click import finds configs you already have
+- 🚦 **Status you can see** — connection lights, tool counts, readable errors, one-click reconnect; a broken server never blocks anything else
+- 🟢 **Every tab, at a glance** — project tabs show a live dot: green while running, amber when waiting for your confirmation
 
-[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v2.8.0)
+[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v2.9.0)
 
 ---
 
 ## 🏗 Built on a foundation that won't go away
+
+**Reliable Edits** (v2.8) — Checks its own work. Before saying done on a TypeScript project, Sagit Code runs the compiler, fixes what it finds, and only then reports complete — with a "verified" badge to prove it. Verified before done: after making changes, Sagit Code runs your project's own type check; if anything broke, it fixes it before finishing. The verified badge: completed runs show at a glance that the project check passed; if issues remain, it says so honestly. Alive, not stuck: long-running commands show a live elapsed counter, so you always know work is happening. Zero setup: works automatically on TypeScript projects with a local compiler; everywhere else, nothing changes.
 
 **Endless Context** (v2.7) — Long sessions, light context. Sagit Code now carries only what it needs — reading files in slices, compacting old history automatically, and searching its own session memory on demand. Faster, cheaper, sharper — on any model, any window. Reads in slices: large files come in by the region, not the whole thing; the agent asks for exactly the lines it needs. Compacts itself: older history is pruned and summarized automatically as sessions grow, recent conversation kept verbatim. Remembers by searching: the agent searches its own session history; past decisions and pruned details are one lookup away. Window-aware: context budgeting adapts to each model's real window, from 192K to 1M.
 
