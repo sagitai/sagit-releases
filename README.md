@@ -9,7 +9,7 @@ Point it at a project · reads, writes, runs · always asks first.
 
 **Latest**: [Sagit v2.9 — Connect & Oversee](https://github.com/sagitai/sagit-releases/releases/latest)
 
-`Sagit-2.9.0-arm64.dmg` · Apple Silicon · signed · notarized · stapled
+`Sagit-2.9.1-arm64.dmg` · Apple Silicon · signed · notarized · stapled
 
 100% local · BYOK · macOS Apple Silicon
 
@@ -24,7 +24,7 @@ Point it at a project · reads, writes, runs · always asks first.
 - 🚦 **Status you can see** — connection lights, tool counts, readable errors, one-click reconnect; a broken server never blocks anything else
 - 🟢 **Every tab, at a glance** — project tabs show a live dot: green while running, amber when waiting for your confirmation
 
-[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v2.9.0)
+[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v2.9.1)
 
 ---
 
