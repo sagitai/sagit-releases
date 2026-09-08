@@ -7,28 +7,35 @@ Point it at a project · reads, writes, runs · always asks first.
 
 ## ⬇️ Download
 
-**Latest**: [Sagit v2.9.3 — GPT, Fully Armed](https://github.com/sagitai/sagit-releases/releases/latest)
+**Latest**: [Sagit v2.9.4 — Next-Gen Lineup](https://pub-62c4e44b68ce4fe082caac022032c282.r2.dev/Sagit-2.9.4-arm64.dmg)
 
-`Sagit-2.9.3-arm64.dmg` · Apple Silicon · signed · notarized · stapled
+`Sagit-2.9.4-arm64.dmg` · Apple Silicon · signed · notarized · stapled
+
+Developers: [GitHub release v2.9.4](https://github.com/sagitai/sagit-releases/releases/tag/v2.9.4) · SHA-256 on the release page
 
 100% local · BYOK · macOS Apple Silicon
 
 ---
 
-## ✨ New in v2.9 — Connect & Oversee
+## ✨ New in v2.9.4 — Next-Gen Lineup
 
-**Connect your tools. Oversee every run.** Sagit Code now speaks Model Context Protocol — plug in any MCP server and its tools join the work mid-run, while status lights and live tab badges show exactly where everything stands.
+**Claude Fable 5.1, GPT-6 Astra and Gemini 3.8 Flash — ready the moment you update.**
 
-- 🔌 **MCP servers, plugged in** — connect any Model Context Protocol server and Sagit Code uses its tools mid-run: query real databases, read issues, pull live data
-- 📋 **Paste and go** — a visual panel to add servers: paste the same JSON you use in Claude Desktop or Cursor and it just works; one-click import finds configs you already have
-- 🚦 **Status you can see** — connection lights, tool counts, readable errors, one-click reconnect; a broken server never blocks anything else
-- 🟢 **Every tab, at a glance** — project tabs show a live dot: green while running, amber when waiting for your confirmation
+- 🧠 **Claude Fable 5.1** — the new default, in chat roles and Sagit Code
+- 🚀 **GPT-6 Astra** — OpenAI's newest, now in the Sagit Code model picker
+- ⚡ **Gemini 3.8 Flash** — the budget agent, refreshed
 
-[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v2.9.3)
+Existing sessions keep the model you chose. Nothing to configure.
+
+[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v2.9.4)
 
 ---
 
 ## 🏗 Built on a foundation that won't go away
+
+**GPT, Fully Armed** (v2.9.3) — Every GPT model in Sagit Code runs with full tool support — and the app stays fast no matter how many projects you keep open. GPT models, full tool support: GPT-5.6 Sol, Terra, and Luna run tools in Sagit Code — shell commands, file edits, MCP servers, everything. Many projects, zero slowdown: keep as many project tabs open as you like; runs start instantly and Stop always responds. Sharper starts: a task only shows "running" once it's truly underway, and clear errors tell you if it couldn't start.
+
+**Connect & Oversee** (v2.9) — Connect your tools. Oversee every run. Sagit Code speaks Model Context Protocol — plug in any MCP server and its tools join the work mid-run, while status lights and live tab badges show exactly where everything stands. MCP servers, plugged in: connect any Model Context Protocol server and Sagit Code uses its tools mid-run — query real databases, read issues, pull live data. Paste and go: a visual panel to add servers — paste the same JSON you use in Claude Desktop or Cursor and it just works; one-click import finds configs you already have. Status you can see: connection lights, tool counts, readable errors, one-click reconnect; a broken server never blocks anything else. Every tab, at a glance: project tabs show a live dot — green while running, amber when waiting for your confirmation.
 
 **Reliable Edits** (v2.8) — Checks its own work. Before saying done on a TypeScript project, Sagit Code runs the compiler, fixes what it finds, and only then reports complete — with a "verified" badge to prove it. Verified before done: after making changes, Sagit Code runs your project's own type check; if anything broke, it fixes it before finishing. The verified badge: completed runs show at a glance that the project check passed; if issues remain, it says so honestly. Alive, not stuck: long-running commands show a live elapsed counter, so you always know work is happening. Zero setup: works automatically on TypeScript projects with a local compiler; everywhere else, nothing changes.
 
@@ -46,7 +53,7 @@ Point it at a project · reads, writes, runs · always asks first.
 
 **Sagit Code** (v2.2) — Your built-in coding agent: point it at a project, describe what you want, and it gets to work — reading files, writing code, running commands. Run any model as your coding agent through ClawAPI, and you stay in control the whole way: it asks when it's unsure — no guessing on decisions only you can make; it confirms before deleting — destructive operations always wait for your OK, everything else just runs, no friction; you see every change — each edit shows a clear, expandable diff of exactly what changed; and Stop means stop — hit Stop and the run halts instantly, no work happening in the background.
 
-**One app for Claude Code and Codex** (v2.1) — Drive Claude Code and OpenAI Codex side by side, tabbed by project — no `cd` in a terminal; start, restart, and stop with one click. Claude Code reaches Anthropic's most capable `claude-opus-4-8` through ClawAPI — the new default for Chat and Code Manager (with `claude-opus-4-7` on hand); Codex runs on your own ChatGPT subscription or API key (`~/.codex/`), zero extra setup. Bring your own key three ways — Claude Pro / Max subscription (zero-touch), Anthropic API key (pay per token), or ClawAPI key (recommended). A single ClawAPI key reaches `claude-fable-5`, `claude-sonnet-5`, `claude-opus-4-8`, `gpt-5.6-sol`, `gpt-5.6-terra`, `gpt-5.6-luna`, and `gemini-3.1-pro` — more on the way. Crypto-native payment with USDC / USDT — no credit card, no Anthropic account. 中文 / English UI auto-switches with your system language. Zero-config onboarding — install the DMG, paste your ClawAPI key, running in five seconds.
+**One app for Claude Code and Codex** (v2.1) — Drive Claude Code and OpenAI Codex side by side, tabbed by project — no `cd` in a terminal; start, restart, and stop with one click. Claude Code reaches Anthropic's most capable `claude-opus-4-8` through ClawAPI — the new default for Chat and Code Manager (with `claude-opus-4-7` on hand); Codex runs on your own ChatGPT subscription or API key (`~/.codex/`), zero extra setup. Bring your own key three ways — Claude Pro / Max subscription (zero-touch), Anthropic API key (pay per token), or ClawAPI key (recommended). A single ClawAPI key reaches `claude-fable-5-1`, `claude-sonnet-5`, `claude-opus-4-8`, `gpt-6-astra`, `gpt-5.6-sol`, `gpt-5.6-terra`, `gpt-5.6-luna`, `gemini-3.1-pro`, and `gemini-3.8-flash` — more on the way. Crypto-native payment with USDC / USDT — no credit card, no Anthropic account. 中文 / English UI auto-switches with your system language. Zero-config onboarding — install the DMG, paste your ClawAPI key, running in five seconds.
 
 **Self-driving Missions** (v1.6) — Missions run in the background while you work elsewhere; a built-in review loop checks each result and reworks it until it holds up. Interrupted runs wait in the Archive — one click to resume.
 
