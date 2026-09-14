@@ -7,31 +7,33 @@ Point it at a project · reads, writes, runs · always asks first.
 
 ## ⬇️ Download
 
-**Latest**: [Sagit v2.9.4 — Next-Gen Lineup](https://pub-62c4e44b68ce4fe082caac022032c282.r2.dev/Sagit-2.9.4-arm64.dmg)
+**Latest**: [Sagit v2.9.5 — Switch Models Mid-Project](https://pub-62c4e44b68ce4fe082caac022032c282.r2.dev/Sagit-2.9.5-arm64.dmg)
 
-`Sagit-2.9.4-arm64.dmg` · Apple Silicon · signed · notarized · stapled
+`Sagit-2.9.5-arm64.dmg` · Apple Silicon · signed · notarized · stapled
 
-Developers: [GitHub release v2.9.4](https://github.com/sagitai/sagit-releases/releases/tag/v2.9.4) · SHA-256 on the release page
+Developers: [GitHub release v2.9.5](https://github.com/sagitai/sagit-releases/releases/tag/v2.9.5) · SHA-256 on the release page
 
 100% local · BYOK · macOS Apple Silicon
 
 ---
 
-## ✨ New in v2.9.4 — Next-Gen Lineup
+## ✨ New in v2.9.5 — Switch Models Mid-Project
 
-**Claude Fable 5.1, GPT-6 Astra and Gemini 3.8 Flash — ready the moment you update.**
+**Change models without starting over — and runs that keep going.**
 
-- 🧠 **Claude Fable 5.1** — the new default, in chat roles and Sagit Code
-- 🚀 **GPT-6 Astra** — OpenAI's newest, now in the Sagit Code model picker
-- ⚡ **Gemini 3.8 Flash** — the budget agent, refreshed
+- 🔀 **Switch models mid-project** — pick a different model from the tab header. Your history and progress stay; the next run uses it.
+- 🔁 **Runs that keep going** — a stalled step recovers on its own, and long research still delivers what it found instead of coming back empty.
+- 🛟 **Easier support** — if something looks off, share `~/.sagit/logs/server.log`. No secrets inside.
 
-Existing sessions keep the model you chose. Nothing to configure.
+Nothing to configure.
 
-[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v2.9.4)
+[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v2.9.5)
 
 ---
 
 ## 🏗 Built on a foundation that won't go away
+
+**Next-Gen Lineup** (v2.9.4) — Claude Fable 5.1, GPT-6 Astra and Gemini 3.8 Flash arrived together: Claude Fable 5.1 became the new default, in chat roles and Sagit Code; GPT-6 Astra, OpenAI's newest, joined the Sagit Code model picker; Gemini 3.8 Flash refreshed the budget agent. Existing sessions kept the model you chose — nothing to configure.
 
 **GPT, Fully Armed** (v2.9.3) — Every GPT model in Sagit Code runs with full tool support — and the app stays fast no matter how many projects you keep open. GPT models, full tool support: GPT-5.6 Sol, Terra, and Luna run tools in Sagit Code — shell commands, file edits, MCP servers, everything. Many projects, zero slowdown: keep as many project tabs open as you like; runs start instantly and Stop always responds. Sharper starts: a task only shows "running" once it's truly underway, and clear errors tell you if it couldn't start.
 
