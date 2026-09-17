@@ -7,31 +7,34 @@ Point it at a project · reads, writes, runs · always asks first.
 
 ## ⬇️ Download
 
-**Latest**: [Sagit v2.9.5 — Switch Models Mid-Project](https://pub-62c4e44b68ce4fe082caac022032c282.r2.dev/Sagit-2.9.5-arm64.dmg)
+**Latest**: [Sagit v2.10 — Project Playbook](https://pub-62c4e44b68ce4fe082caac022032c282.r2.dev/Sagit-2.10.0-arm64.dmg)
 
-`Sagit-2.9.5-arm64.dmg` · Apple Silicon · signed · notarized · stapled
+`Sagit-2.10.0-arm64.dmg` · Apple Silicon · signed · notarized · stapled
 
-Developers: [GitHub release v2.9.5](https://github.com/sagitai/sagit-releases/releases/tag/v2.9.5) · SHA-256 on the release page
+Developers: [GitHub release v2.10.0](https://github.com/sagitai/sagit-releases/releases/tag/v2.10.0) · SHA-256 on the release page
 
 100% local · BYOK · macOS Apple Silicon
 
 ---
 
-## ✨ New in v2.9.5 — Switch Models Mid-Project
+## ✨ New in v2.10 — Project Playbook
 
-**Change models without starting over — and runs that keep going.**
+**Every project now carries its own to-do list, ship steps and handover notes — so the next run, teammate or machine picks up where you left off.**
 
-- 🔀 **Switch models mid-project** — pick a different model from the tab header. Your history and progress stay; the next run uses it.
-- 🔁 **Runs that keep going** — a stalled step recovers on its own, and long research still delivers what it found instead of coming back empty.
-- 🛟 **Easier support** — if something looks off, share `~/.sagit/logs/server.log`. No secrets inside.
+- 📝 **What's next, on file** — sagit.md keeps a TODO and a Handover section that Sagit updates as it works.
+- 🚢 **How this project ships** — the first time you ask for a release, Sagit drafts the steps from your repo, marked as a draft until you confirm.
+- 🗂️ **See it, edit it, find it** — the Project Memory panel shows each section on its own tab; one click reveals the file in Finder.
+- 🧮 **Whole-run counts** — token usage now covers the entire run.
 
-Nothing to configure.
+sagit.md is part of your project — commit it and it travels with the code.
 
-[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v2.9.5)
+[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v2.10.0)
 
 ---
 
 ## 🏗 Built on a foundation that won't go away
+
+**Switch Models Mid-Project** (v2.9.5) — Change models without starting over, and runs that keep going. Switch models mid-project: pick a different model from the tab header; your history and progress stay, and the next run uses it. Runs that keep going: a stalled step recovers on its own, and long research still delivers what it found instead of coming back empty. Easier support: if something looks off, share `~/.sagit/logs/server.log` — no secrets inside. Nothing to configure.
 
 **Next-Gen Lineup** (v2.9.4) — Claude Fable 5.1, GPT-6 Astra and Gemini 3.8 Flash arrived together: Claude Fable 5.1 became the new default, in chat roles and Sagit Code; GPT-6 Astra, OpenAI's newest, joined the Sagit Code model picker; Gemini 3.8 Flash refreshed the budget agent. Existing sessions kept the model you chose — nothing to configure.
 
