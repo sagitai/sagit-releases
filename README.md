@@ -7,32 +7,34 @@ Point it at a project · reads, writes, runs · always asks first.
 
 ## ⬇️ Download
 
-**Latest**: [Sagit v2.10.2 — Newer, Faster Models](https://pub-62c4e44b68ce4fe082caac022032c282.r2.dev/Sagit-2.10.2-arm64.dmg)
+**Latest**: [Sagit v2.10.3 — Fable 5.2 and GPT-6.1](https://pub-62c4e44b68ce4fe082caac022032c282.r2.dev/Sagit-2.10.3-arm64.dmg)
 
-`Sagit-2.10.2-arm64.dmg` · Apple Silicon · signed · notarized · stapled
+`Sagit-2.10.3-arm64.dmg` · Apple Silicon · signed · notarized · stapled
 
-Developers: [GitHub release v2.10.2](https://github.com/sagitai/sagit-releases/releases/tag/v2.10.2) · SHA-256 on the release page
+Developers: [GitHub release v2.10.3](https://github.com/sagitai/sagit-releases/releases/tag/v2.10.3) · SHA-256 on the release page
 
 100% local · BYOK · macOS Apple Silicon
 
 ---
 
-## ✨ New in v2.10.2 — Newer, Faster Models
+## ✨ New in v2.10.3 — Fable 5.2 and GPT-6.1
 
-**A refreshed model lineup: faster everyday answers, cheaper GPT options, and a new Claude flagship.**
+**Three new models, in the seats you already use.**
 
-- ⚡ **Claude Sonnet 5.5** takes over everyday work — same price, noticeably faster on research and coding runs.
-- 💸 **GPT-6 Sol and Luna** replace their 5.6 predecessors at half the price.
-- 🧠 **Claude Opus 5.5** joins the Sagit Code picker — a frontier-class Claude at a lower price.
-- 💬 **No blank replies** — if a model ever returns nothing, Sagit tells you and you can retry.
+- 📖 **Claude Fable 5.2** — the new default for Sagit Code and Expert mode, at $8 / $40 per 1M tokens.
+- ☀️ **GPT-6.1 Sol** — takes the Frontier Value seat at $2 / $10.
+- 🌍 **GPT-6.1 Terra** — your daily driver at $1 / $5.
+- 📝 **Bigger single writes** — Sagit Code can now produce much larger files in one step, and gives deep thinking more time before the first answer.
 
-Existing sessions keep the model you chose. Nothing to configure.
+Saved roles move to the new models on their own. Existing sessions keep the model they started with.
 
-[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v2.10.2)
+[Full release notes →](https://github.com/sagitai/sagit-releases/releases/tag/v2.10.3)
 
 ---
 
 ## 🏗 Built on a foundation that won't go away
+
+**Newer, Faster Models** (v2.10.2) — A refreshed model lineup: faster everyday answers, cheaper GPT options, and a new Claude flagship. Claude Sonnet 5.5 takes over everyday work — same price, noticeably faster on research and coding runs. GPT-6 Sol and Luna replace their 5.6 predecessors at half the price. Claude Opus 5.5 joins the Sagit Code picker — a frontier-class Claude at a lower price. No blank replies: if a model ever returns nothing, Sagit tells you and you can retry. Existing sessions keep the model you chose. Nothing to configure.
 
 **Project Playbook** (v2.10) — Every project now carries its own to-do list, ship steps and handover notes — so the next run, teammate or machine picks up where you left off. What's next, on file: sagit.md keeps a TODO and a Handover section that Sagit updates as it works. How this project ships: the first time you ask for a release, Sagit drafts the steps from your repo, marked as a draft until you confirm. See it, edit it, find it: the Project Memory panel shows each section on its own tab; one click reveals the file in Finder. Whole-run counts: token usage now covers the entire run. sagit.md is part of your project — commit it and it travels with the code.
 
@@ -60,7 +62,7 @@ Existing sessions keep the model you chose. Nothing to configure.
 
 **Sagit Code** (v2.2) — Your built-in coding agent: point it at a project, describe what you want, and it gets to work — reading files, writing code, running commands. Run any model as your coding agent through ClawAPI, and you stay in control the whole way: it asks when it's unsure — no guessing on decisions only you can make; it confirms before deleting — destructive operations always wait for your OK, everything else just runs, no friction; you see every change — each edit shows a clear, expandable diff of exactly what changed; and Stop means stop — hit Stop and the run halts instantly, no work happening in the background.
 
-**One app for Claude Code and Codex** (v2.1) — Drive Claude Code and OpenAI Codex side by side, tabbed by project — no `cd` in a terminal; start, restart, and stop with one click. Claude Code reaches Anthropic's most capable `claude-opus-4-8` through ClawAPI — the new default for Chat and Code Manager (with `claude-opus-4-7` on hand); Codex runs on your own ChatGPT subscription or API key (`~/.codex/`), zero extra setup. Bring your own key three ways — Claude Pro / Max subscription (zero-touch), Anthropic API key (pay per token), or ClawAPI key (recommended). A single ClawAPI key reaches `claude-fable-5-1`, `claude-sonnet-5-5`, `claude-opus-5-5`, `gpt-6-astra`, `gpt-6-sol`, `gpt-5.6-terra`, `gpt-6-luna`, `gemini-3.1-pro`, and `gemini-3.8-flash` — more on the way. Crypto-native payment with USDC / USDT — no credit card, no Anthropic account. 中文 / English UI auto-switches with your system language. Zero-config onboarding — install the DMG, paste your ClawAPI key, running in five seconds.
+**One app for Claude Code and Codex** (v2.1) — Drive Claude Code and OpenAI Codex side by side, tabbed by project — no `cd` in a terminal; start, restart, and stop with one click. Claude Code reaches Anthropic's most capable `claude-opus-4-8` through ClawAPI — the new default for Chat and Code Manager (with `claude-opus-4-7` on hand); Codex runs on your own ChatGPT subscription or API key (`~/.codex/`), zero extra setup. Bring your own key three ways — Claude Pro / Max subscription (zero-touch), Anthropic API key (pay per token), or ClawAPI key (recommended). A single ClawAPI key reaches `claude-fable-5-2`, `claude-sonnet-5-5`, `claude-opus-5-5`, `gpt-6-astra`, `gpt-6.1-sol`, `gpt-6.1-terra`, `gpt-6-luna`, `gemini-3.1-pro`, and `gemini-3.8-flash` — more on the way. Crypto-native payment with USDC / USDT — no credit card, no Anthropic account. 中文 / English UI auto-switches with your system language. Zero-config onboarding — install the DMG, paste your ClawAPI key, running in five seconds.
 
 **Self-driving Missions** (v1.6) — Missions run in the background while you work elsewhere; a built-in review loop checks each result and reworks it until it holds up. Interrupted runs wait in the Archive — one click to resume.
 
